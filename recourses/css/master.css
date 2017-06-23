@@ -1,3 +1,108 @@
-p{
-  color: pink;
+
+/*general*/
+body{
+  font-family: Helvetica;
+  font-size: 22px;
+  color: SeaShell;
+  background-color: black;
+  text-align: center;
+  margin: 0;
+}
+
+div{
+  display: block;
+}
+
+.content{
+  padding-top: 70px;
+  width: 1200px;
+  margin: auto;
+  opacity: 0.9;
+}
+
+
+.flex-container{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+h2,
+h3,
+h4
+{
+  margin: 0px;
+  padding: 10px;
+}
+
+/*header*/
+header{
+  align-items: center;
+  position: fixed;
+  z-index: 1;
+  width: 100%;
+  height: 69px;
+  background-color: black;
+  border-bottom: 1px solid seashell;
+  }
+
+header img{
+  height: 50px;
+  margin-left: 10px;
+}
+
+nav{
+  text-align: right;
+  flex-grow: 1;
+}
+
+nav span{
+  display: inline-block;
+  padding: 20px 10px;
+}
+
+a{
+  color: SeaShell;
+}
+
+/*mission*/
+#mission{
+  background-image: url(https://raw.githubusercontent.com/LunaNoxMoon/Tea-Cozy/master/recourses/images/mission.jpg);
+  height: 700px;
+}
+
+#mission .mission{
+  background-color: black;
+  width: 100%;
+  margin: auto;
+}
+
+/*featured*/
+
+#featured{
+  width: 1000px;
+  height: 700px;
+  padding-top: 70px;
+  justify-content: space-between;
+}
+
+.flavour{
+  padding: 5px;
+}
+
+.flavour img{
+  height: 200px;
+  width: 300px;
+  margin: 10px;
+}
+
+.flavour span{
+  display: block;
+  font-weight: bold;
+  padding: 5px;
+}
+
+/*locations*/
+.locations{
+  background-image: url(https://raw.githubusercontent.com/LunaNoxMoon/Tea-Cozy/master/recourses/images/locations.jpg);
 }
